@@ -1,0 +1,40 @@
+{
+    "name": "PlaceObjects",
+    "maps": [
+        {
+            "name": "Interaction",
+            "id": "28595149-6f2c-43c4-89ea-a1df5c7abb9b",
+            "actions": [
+                {
+                    "name": "PrimaryTouch",
+                    "type": "Value",
+                    "id": "b7e6825e-df9d-4f3f-80f2-2433b48d963f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6b0e5529-cbdc-4d1f-aa21-60272ab356f5",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "ObjectPlacement",
+                    "action": "PrimaryTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "ObjectPlacement",
+            "bindingGroup": "ObjectPlacement",
+            "devices": []
+        }
+    ]
+}
